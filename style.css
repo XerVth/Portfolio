@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Background der gesamten seite*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: #0D1321;
+    padding-top: 80px; /* Adjust if needed for navbar */
+}
+
+/* Style for full-width image */
+.full-width-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+/*Background vom mittelpart der seite*/
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #0D1321;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Header Navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the navigation links */
+.nav a {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #F1D4FC;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #2EC4B6;
+}
+
+/*Esra Matar oben links*/
+.nav h1 {
+    color: #F1D4FC;
+    font-size: 1.8em;
+}
+/*About etc. oben rechts*/
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: #F1D4FC;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav ul li a:hover {
+    color:#F1D4FC;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color:#F1D4FC;
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background: transparent;
+    color: #2EC4B6;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Contact */
+.contact p {
+    margin: 8px 0;
+    font-size: 1em;
+    color: #F1D4FC;
+}
+.contact a {
+    color:#F1D4FC;
+    text-decoration: none;
+}
